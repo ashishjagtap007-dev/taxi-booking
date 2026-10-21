@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Booking Management System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url("images/taxi6.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(41, 107, 107, 0.85);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #00ffff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        main {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .welcome-section {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 600px;
+        }
+
+        .welcome-section h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #ffeb3b;
+        }
+
+        .welcome-section p {
+            font-size: 18px;
+            color: #f2f2f2;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        h3 {
+            margin-top: 40px;
+            font-size: 22px;
+            color: #ffffff;
+        }
+
+        p {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #ededed;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Taxi Booking System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Feedback</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="welcome-section">
+            <h2>Welcome to Our Taxi Booking System!</h2>
+            <p>Book your ride instantly and manage your travel effortlessly.</p>
+        </section>
+
+        <div class="gallery">
+            <img src="images/taxi.png" alt="Taxi Image 1">
+            <img src="images/taxi2.png" alt="Taxi Image 2">
+            <img src="images/taxi3.png" alt="Taxi Image 3">
+        </div>
+
+        <h3>Need a Ride? Call Us Any Time!</h3>
+        <p>Life is a journey — enjoy the ride by hiring a taxi!</p>
+    </main>
+
+    <footer>
+        &copy; 2025 Harshad's Taxi Booking System. All rights reserved.
+    </footer>
+
+</body>
+
+</html>

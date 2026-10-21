@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.login-form {
+  /* border: 2px solid; */
+  width: 325px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 10% auto 0;
+  text-align: center;
+  border-radius: 25px;
+
+}
+
+.login-form h1 {
+  color: rgb(255, 1, 1);
+  margin-bottom: 30px;
+  margin-top: 10px;
+
+}
+
+.input-box {
+
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 85%;
+  font-size: 16px;
+  border: 1px solid;
+  outline: none;
+
+}
+
+.submitbtn{
+  width: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid;
+  cursor: pointer;
+  background-color: orange;
+  font-style: italic;
+  margin-bottom: 20px;
+
+}
+hr {
+  margin-top: 20px;
+}
+
+.or {
+  margin: -10px auto 10px;
+  font-size: 20px;
+  background-color: gainsboro;
+  width: 10%;
+  border-radius: 20px;
+
+
+}
+
+p.term{
+  font-size: 18px;
+  color: gold;
+  cursor: pointer;
+
+}
+
+.term {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 70px;
+  margin-top: -50px;
+  background-repeat: no-repeat;
+}
+
+.submitbtn:hover {
+  background-color: green;
+}
+
+.input-box:hover {
+  background-color: whitesmoke;
+}
+
+ @media (max-width: 470px){
+   .login-form{
+    width: 88%;
+   }
+
+ }
+
+
+
+  
+ 

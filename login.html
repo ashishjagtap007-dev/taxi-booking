@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="login.css">
+
+    <style>
+        title{
+              size: 10px;
+        }
+  
+         header{
+            font-style: oblique;
+         }
+        
+        h2 {
+            text-align: center;
+            text: size 70px;
+            color: #0f0f07;
+            font-size: 45px;
+        }
+        
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #3e2f2f;
+            border-radius: 4px;
+        }
+        
+        input[type="submit"] {
+            background-color: #ef450c;
+            color: #e6e2e2;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #063749;
+        }
+        
+        /* Add media query for better responsiveness */
+        @media screen and (max-width: 600px) {
+            form {
+                max-width: 100%;
+            }
+        }
+
+        </style>
+</head>
+
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taxi Booking Management System</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Taxi Booking System</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="#">Feedback </a></li>
+
+                <!--<li><a href="admin.html">Admin</a></li> Added Admin button --> 
+
+            </ul>
+        </nav>
+    <h2>User Login</h2><br>
+    <form action="login.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="submit" value="Login">
+
+    </form>
+    <footer>
+        <p>&copy; Thank you for visit </p>
+    </footer>
+</body>
+
+</html>
